@@ -4,3 +4,9 @@ int main()
 
 printf("hello");
 }
+
+void function multi(){
+  
+  printf("in multi");
+  
+}
