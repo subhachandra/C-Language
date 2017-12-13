@@ -16,3 +16,9 @@ void function add(){
 
 }
 
+void function divide(){
+
+  printf("in divid");
+
+}
+
