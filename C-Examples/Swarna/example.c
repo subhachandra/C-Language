@@ -10,3 +10,9 @@ void function multi(){
   printf("in multi");
   
 }
+void function add(){
+
+  printf("in add");
+
+}
+
