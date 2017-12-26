@@ -1,0 +1,2 @@
+add: add.c addfun.c
+	gcc -o add add.c addfun.c -I.
