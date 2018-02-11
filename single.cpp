@@ -13,7 +13,7 @@ static Single* instance()
 {
 if(instance1!=NULL)
 {
-cout<<"it is in if block";
+cout<<"is in if block";
  instance1=new Single();
 }
 else{
