@@ -1,14 +1,24 @@
-write a programs to catch exceptions     
-some lines of code
-some lines of codesome lines of code
+#include <iostream>
+using namespace std;
 
-some lines of code
-some lines of code
-some lines of code
+double division(int a, int b) {
+   if( b == 0 ) {
+      throw "Division by zero condition!";
+   }
+   return (a/b);
+}
 
+int main () {
+   int x = 50;
+   int y = 0;
+   double z = 0;
+ 
+   try {
+      z = division(x, y);
+      cout << z << endl;
+   } catch (const char* msg) {
+     cerr << msg << endl;
+   }
 
-
-
-
-
-some lines of code
+   return 0;
+}
